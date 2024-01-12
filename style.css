@@ -1,0 +1,212 @@
+*{
+    margin : 0;
+    padding : 0;
+   
+    
+}
+body{
+    
+    box-sizing: border-box;
+
+}
+#image{
+    border-radius: 50%;
+    
+}
+
+
+.content{
+    width:30vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    gap: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.contain{
+    width:30vw;
+    min-height: 105vh;
+    background-color:#003366;
+    
+    
+}
+@media(max-width:800px){
+    #image{
+        width:80%;
+        height: 12vh;
+    }
+    .content h1{
+        font-size: 90%;
+    }
+    .concept h1{
+        font-size: 90%;
+    }
+    .number{
+        font-size: 40%;
+        margin-right: 4%;
+        text-decoration: none;
+        color: white;
+    }
+    .life{
+        height: 80%;
+        width:30%;
+    }
+    .number2{
+        font-size: 60%;
+       
+    }
+    .number3{
+        font-size: 60%;
+       
+    }
+    .profile h1{
+        font-size: 2.5vh;
+    }
+    .profile2 h1{
+        font-size: 2.5vh;
+    }
+    .no{
+        font-size: 1vh;
+        
+    }
+    .container2{
+        width: 80%;
+        background-color: lightgray;
+        height: 1vh;
+        margin-top: 2.2%;
+      }
+      .aryan3{
+        gap: 20%;
+        
+    }
+}
+@media(max-width:1270px){
+    .container3{
+        font-size: 2vh;
+    }
+}
+.line{
+    border-width: 1px;
+    border-color: dimgray;
+    border-style: solid;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-right: 10%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8%;
+    color: white;
+}
+.concept{
+    margin-left: 10%;
+    margin-top: 10%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.number{
+    margin-right: 4%;
+    text-decoration: none;
+    color: white;
+   
+}
+.number2{
+    margin-right: 4%;
+    text-decoration: none;
+    color: rgb(134, 20, 221);
+    margin-top: 4%;
+}
+.number3{
+    margin-right: 4%;
+    text-decoration: none;
+    color: white;
+    margin-top: 4%;
+}
+
+/* Container for skill bars */
+
+
+
+.container1{
+    width: 80%;
+    background-color: black;
+    height: 1vh;
+    
+  }
+
+.html {width: 90% ; background-color: blue; height: 100%;} /* Green */
+.css {width: 90%; background-color: blue;height: 100%;} /* Blue */
+.js {width: 95%; background-color: blue;height: 100%;} /* Red */
+
+.lang{
+    width:80%;
+    background-color: gray;
+}
+.new{
+    background-color: white;
+    padding-left: 2%;
+}
+.aryan{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    min-width: 100vw;
+}
+.aryan2{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.profile h1{
+    color: #003366;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+
+}
+.profile2 h1{
+    color: #003366;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3%;
+
+}
+.no{
+    padding-top: 1%;
+    margin-top: 2%;
+    width: 3vw;
+    
+}
+.container2{
+    width: 80%;
+    background-color: lightgray;
+    height: 2vh;
+    margin-top: 3.2%;
+  }
+  .html2{width: 90% ; background-color:#87CEEB; height: 100%;} /* Green */
+  .css2{width: 80% ; background-color:#87CEEB; height: 100%;} /* Green */
+  .js2{width: 50% ; background-color:#87CEEB; height: 100%;} /* Green */
+  #mic{
+    height: 2.5vh;
+    width: 2.5vh;
+  }
+  .container3{
+    height: 2vh;
+    margin-top: 2.2%;
+  }
+  .aryan3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    
+}
+.aryan4{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
